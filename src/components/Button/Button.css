@@ -1,0 +1,29 @@
+.btn {
+    transition: all 0.25s;
+    box-shadow: none;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    color: #cadee4;
+    padding: 0.3rem 1rem;
+    height: 2rem;
+}
+
+.btn:focus,.btn:focus-visible {
+  outline: 4px auto #db1111;
+}
+
+.btn.primary {
+    border-radius: 8px;
+    border: 1px solid #333333;
+  }
+  
+.btn.secondary {
+    border: none;
+    padding: .1rem .5rem;
+}
+
+.btn.secondary:hover {
+    text-decoration: underline;
+}
